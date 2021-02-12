@@ -4,10 +4,10 @@ Converts binary buffer into base64 image. Usually helpful displaying images from
 
 ## Usage
 
-At first, install it from npm with `npm i image-buffer` and import the package.
+At first, install it from npm with `npm i @iamlizu/image-buffer` and import the package.
 
 ```
-import imageBuffer from "image-buffer";
+import imageBuffer from "@iamlizu/image-buffer";
 ```
 
 `imageBuffer` method takes two input, first one is the binary buffer and the second one is the content-type of the image.
