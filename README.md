@@ -13,7 +13,12 @@ import imageBuffer from "@iamlizu/image-buffer";
 `imageBuffer` method takes two input, first one is the binary buffer and the second one is the content-type of the image.
 
 ```
-imageBuffer(image.buffer, image.contentType)
+<img
+    ...
+    // Feeding imageBuffer the information it needs to get a base64 image string.
+    src={imageBuffer(image.data, image.contentType)}
+    ...
+/>
 ```
 
 ## Contributing
